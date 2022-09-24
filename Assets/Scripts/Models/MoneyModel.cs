@@ -34,6 +34,8 @@ public class MoneyModel : MoneyBaseModel
     public override void OnMouseDown()
     {
         base.OnMouseDown();
+        shredArea = null;
+        stackArea = null;
     }
 
     public override void OnMouseDrag()
@@ -51,22 +53,20 @@ public class MoneyModel : MoneyBaseModel
         {
             if (shredArea = hit.transform.GetComponent<ShredAreaModel>())
             {
+                isShredded = true;
                 onEnterShredArea();
                 shredArea.OnMoneyEnter();
-                isShredded = true;
             }
             if (stackArea = hit.transform.GetComponent<MoneyStackArea>())
             {
+                isStacked = true;
                 onEnterMoneyStackArea();
                 stackArea.OnEnterMoney();
-                isStacked = true;
             }
             if (stackArea == null && shredArea == null)
             {
                 onReturnOldPlace();
             }
-            shredArea = null;
-            stackArea = null;
         }
     }
 
@@ -109,13 +109,13 @@ public class MoneyModel : MoneyBaseModel
         {
             incomeController.UpdateMoney(100);
         }
-        else if ((!IsDoodled && !IsFake) && isStacked)
+        if ((!IsDoodled && !IsFake) && isStacked)
         {
             incomeController.UpdateMoney(100);
         }
-        else
+        if ((!IsDoodled && !IsFake) && isShredded)
         {
-            incomeController.UpdateMoney(100);
+            incomeController.UpdateMoney(-100);
         }
     }
 }
