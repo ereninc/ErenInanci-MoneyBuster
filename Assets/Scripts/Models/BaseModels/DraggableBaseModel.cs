@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class DraggableBaseModel : ObjectModel
 {
-    public Vector3 InitialPos;
-    public Vector3 InitialRot;
     private Vector3 screenPos;
     private Vector3 worldPos;
     private float zOffset;
+
+    public Vector3 InitialPos;
+    public Vector3 InitialRot;
 
     public virtual void OnMouseDown() 
     { 

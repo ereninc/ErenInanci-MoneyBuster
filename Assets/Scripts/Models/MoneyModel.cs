@@ -46,6 +46,11 @@ public class MoneyModel : MoneyBaseModel
     public override void OnMouseUp()
     {
         base.OnMouseUp();
+        onDrop();
+    }
+
+    private void onDrop()
+    {
         var rayOrigin = Camera.main.transform.position;
         var rayDir = WorldPos - rayOrigin;
         RaycastHit hit;

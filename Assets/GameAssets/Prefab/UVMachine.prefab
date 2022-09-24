@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a8034e0061253f48b6e2aca00b2b87f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitialPos: {x: -4, y: 1, z: -7}
+  InitialPos: {x: -1.5, y: 1, z: -9.5}
   InitialRot: {x: 0, y: -10, z: 0}
   uvLight: {fileID: 2411952767126074212}
   mask: {fileID: 2411952766430597989}
