@@ -942,7 +942,6 @@ MonoBehaviour:
   initializedElements:
   - {fileID: 2128005899}
   - {fileID: 2042620551}
-  - {fileID: 1026594511}
   - {fileID: 291359324}
   - {fileID: 1333089699}
   - {fileID: 979846209}
@@ -2070,6 +2069,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virtualCam: {fileID: 1026594510}
   shakeTimer: 0.25
+  channel: {fileID: 0}
+  intensity: 0
 --- !u!1 &1092029626
 GameObject:
   m_ObjectHideFlags: 0
