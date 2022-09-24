@@ -76,6 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4533c4ddd00135e45923492331abf708, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 3156962904243223903}
 --- !u!65 &3156962903576156512
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1335,8 +1336,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 7d3eb932a047448a4a3fee3347245828, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8dc9af9fd4f7a4f3ca641f5df434bc30, type: 2}
+    - target: {fileID: 9500000, guid: 7d3eb932a047448a4a3fee3347245828, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d3eb932a047448a4a3fee3347245828, type: 3}
+--- !u!95 &3156962904243223903 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 7d3eb932a047448a4a3fee3347245828, type: 3}
+  m_PrefabInstance: {fileID: 3156962904235853887}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3156962904236249789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 7d3eb932a047448a4a3fee3347245828, type: 3}

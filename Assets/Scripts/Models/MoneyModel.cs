@@ -23,7 +23,11 @@ public class MoneyModel : MoneyBaseModel
 
     public void Spawn() 
     {
-        
+        SetActivate();
+        transform.position = InitialPos;
+        transform.rotation = Quaternion.identity;
+        animator.SetTrigger("Idle");
+        transform.DOScale(new Vector3(1.2f, 1.2f, 1.2f), 0.25f).OnComplete(() => { transform.DOScale(Vector3.one, 0.25f); });
     }
 
     public override void OnMouseDown()
@@ -47,6 +51,7 @@ public class MoneyModel : MoneyBaseModel
             if (shredArea = hit.transform.GetComponent<ShredAreaModel>())
             {
                 onEnterShredArea();
+                shredArea.OnMoneyEnter();
             }
             if (stackArea = hit.transform.GetComponent<MoneyStackArea>())
             {
@@ -56,28 +61,27 @@ public class MoneyModel : MoneyBaseModel
             {
                 onReturnOldPlace();
             }
-
             shredArea = null;
             stackArea = null;
         }
     }
 
-    private void onReturnOldPlace() { transform.DOMove(InitialPos, 0.5f); }
+    private void onReturnOldPlace() 
+    { 
+        transform.DOMove(InitialPos, 0.5f);
+    }
+
     private void onEnterShredArea() 
     {
-        transform.DOMove(shredAreaEnterPos, 0.15f);
-        transform.DORotate(shredAreaRot, 0.15f).OnComplete(() => 
-        {
-            animator.SetTrigger("ShredMoney");
-        }); 
+        transform.DOMove(shredAreaEnterPos, 0.05f);
+        transform.DORotate(shredAreaRot, 0.05f);
+        animator.SetTrigger("ShredMoney");
     }
 
     private void onEnterMoneyStackArea() 
     {
-        transform.DOMove(stackAreaPos, 0.15f);
-        transform.DORotate(moneyStackAreaRot, 0.25f).OnComplete(() =>
-        {
-            animator.SetTrigger("ShredMoney");
-        });
+        transform.DOMove(stackAreaPos, 0.05f);
+        transform.DORotate(moneyStackAreaRot, 0.05f);
+        animator.SetTrigger("ShredMoney");
     }
 }

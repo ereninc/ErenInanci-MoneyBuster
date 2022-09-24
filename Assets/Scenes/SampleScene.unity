@@ -621,6 +621,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoneyModelType2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
 --- !u!4 &410594096 stripped
@@ -662,6 +686,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 569779915}
     m_Modifications:
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4987198755550057425, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1225,6 +1273,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoneyModelType2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
 --- !u!4 &733828202 stripped
@@ -1385,6 +1457,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1092029627}
     m_Modifications:
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4509901540101979501, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
       propertyPath: m_Name
       value: MoneyModelType1 (5)
@@ -1734,6 +1830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3befb586823d994eb3298031009cfea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moneyPools: {fileID: 1417650753}
 --- !u!1001 &991055947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1741,6 +1838,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 569779915}
     m_Modifications:
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4987198755550057425, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1985,6 +2106,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704006906}
     m_Modifications:
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5514111009054042920, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
       propertyPath: m_Name
       value: MoneyModelType4 (3)
@@ -2058,6 +2203,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1092029627}
     m_Modifications:
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4509901540101979501, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
       propertyPath: m_Name
       value: MoneyModelType1 (2)
@@ -2135,6 +2304,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704006906}
     m_Modifications:
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5514111009054042920, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
       propertyPath: m_Name
       value: MoneyModelType4 (2)
@@ -2252,6 +2445,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704006906}
     m_Modifications:
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5514111009054042920, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
       propertyPath: m_Name
       value: MoneyModelType4 (5)
@@ -2430,6 +2647,30 @@ PrefabInstance:
     - target: {fileID: 1821035293620043073, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
       propertyPath: m_Name
       value: MoneyModelType2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
@@ -2822,6 +3063,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1092029627}
     m_Modifications:
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4509901540101979501, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
       propertyPath: m_Name
       value: MoneyModelType1 (4)
@@ -3033,6 +3298,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 569779915}
     m_Modifications:
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4987198755550057425, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -3106,6 +3395,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1092029627}
     m_Modifications:
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4509901540101979501, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
       propertyPath: m_Name
       value: MoneyModelType1 (3)
@@ -3183,6 +3496,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 569779915}
     m_Modifications:
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4987198755550057425, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3303,6 +3640,30 @@ PrefabInstance:
     - target: {fileID: 1821035293620043073, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
       propertyPath: m_Name
       value: MoneyModelType2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
@@ -3526,6 +3887,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1092029627}
     m_Modifications:
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4509901540101979501, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
       propertyPath: m_Name
       value: MoneyModelType1 (1)
@@ -3744,6 +4129,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704006906}
     m_Modifications:
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5514111009054042920, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
       propertyPath: m_Name
       value: MoneyModelType4 (4)
@@ -3863,6 +4272,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 569779915}
     m_Modifications:
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4987198755550057425, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3936,6 +4369,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1092029627}
     m_Modifications:
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4509901540101979501, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
       propertyPath: m_Name
       value: MoneyModelType1 (6)
@@ -4013,6 +4470,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704006906}
     m_Modifications:
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5514111009054042920, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
       propertyPath: m_Name
       value: MoneyModelType4 (1)
@@ -4489,6 +4970,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoneyModelType2
       objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772713170874106688, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
 --- !u!1001 &2411952766499774330
@@ -4563,13 +5068,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1092029627}
     m_Modifications:
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7757288638936462943, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4509901540101979501, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
       propertyPath: m_Name
       value: MoneyModelType1
       objectReference: {fileID: 0}
     - target: {fileID: 4509901540101979501, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4509901540101979506, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
       propertyPath: m_RootOrder
@@ -4672,6 +5201,102 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249777, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249777, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249777, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249779, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249779, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249779, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249781, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249781, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249781, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249783, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249783, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249783, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249785, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249785, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249785, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249787, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249787, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249787, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249789, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249789, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249789, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249791, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249791, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156962904236249791, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
 --- !u!1001 &4987198754624762923
@@ -4681,6 +5306,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 569779915}
     m_Modifications:
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176833280394252038, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4987198755550057425, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4738,6 +5387,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704006906}
     m_Modifications:
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: moneyController
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979846209}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoneyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553465867039966105, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: OnTrig.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5514111009054042920, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
       propertyPath: m_Name
       value: MoneyModelType4

@@ -1,84 +1,230 @@
 fileFormatVersion: 2
 guid: 7d3eb932a047448a4a3fee3347245828
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: button
-    100002: //RootNode
-    100004: shreddder_knife1
-    100006: shreddder_knife1.001
-    100008: shredder_container
-    100010: shredder_knife2
-    100012: shredder_knife2.001
-    100014: shredder_lid
-    400000: button
-    400002: //RootNode
-    400004: shreddder_knife1
-    400006: shreddder_knife1.001
-    400008: shredder_container
-    400010: shredder_knife2
-    400012: shredder_knife2.001
-    400014: shredder_lid
-    2100000: Material.001
-    2100002: Material.003
-    2100004: No Name
-    2300000: button
-    2300002: shreddder_knife1
-    2300004: shreddder_knife1.001
-    2300006: shredder_container
-    2300008: shredder_knife2
-    2300010: shredder_knife2.001
-    2300012: shredder_lid
-    3300000: button
-    3300002: shreddder_knife1
-    3300004: shreddder_knife1.001
-    3300006: shredder_container
-    3300008: shredder_knife2
-    3300010: shredder_knife2.001
-    3300012: shredder_lid
-    4300000: shredder_lid
-    4300002: shreddder_knife1
-    4300004: shredder_knife2
-    4300006: button
-    4300008: shreddder_knife1.001
-    4300010: shredder_knife2.001
-    4300012: shredder_container
-    7400000: shreddder_knife1|Shredder Gear Back rearAction.000
-    7400002: shreddder_knife1|Shredder Gear Back rearAction.001
-    7400004: shreddder_knife1|Shredder Gear Front RearAction.001
-    7400006: shreddder_knife1|Shredder Gear Front RearAction.002
-    7400008: shreddder_knife1|Shredder Gear MiddleAction.000
-    7400010: shreddder_knife1|Shredder Gear MiddleAction.001
-    7400012: shreddder_knife1|Shredder Gear MiddleAction.002
-    7400014: shreddder_knife1|Shredder Gear MiddleAction.003
-    7400016: shredder_knife2|Shredder Gear Back rearAction.000
-    7400018: shredder_knife2|Shredder Gear Back rearAction.001
-    7400020: shredder_knife2|Shredder Gear Front RearAction.001
-    7400022: shredder_knife2|Shredder Gear Front RearAction.002
-    7400024: shredder_knife2|Shredder Gear MiddleAction.000
-    7400026: shredder_knife2|Shredder Gear MiddleAction.001
-    7400028: shredder_knife2|Shredder Gear MiddleAction.002
-    7400030: shredder_knife2|Shredder Gear MiddleAction.003
-    7400032: shreddder_knife1.001|Shredder Gear Back rearAction.000
-    7400034: shreddder_knife1.001|Shredder Gear Back rearAction.001
-    7400036: shreddder_knife1.001|Shredder Gear Front RearAction.001
-    7400038: shreddder_knife1.001|Shredder Gear Front RearAction.002
-    7400040: shreddder_knife1.001|Shredder Gear MiddleAction.000
-    7400042: shreddder_knife1.001|Shredder Gear MiddleAction.001
-    7400044: shreddder_knife1.001|Shredder Gear MiddleAction.002
-    7400046: shreddder_knife1.001|Shredder Gear MiddleAction.003
-    7400048: shredder_knife2.001|Shredder Gear Back rearAction.000
-    7400050: shredder_knife2.001|Shredder Gear Back rearAction.001
-    7400052: shredder_knife2.001|Shredder Gear Front RearAction.001
-    7400054: shredder_knife2.001|Shredder Gear Front RearAction.002
-    7400056: shredder_knife2.001|Shredder Gear MiddleAction.000
-    7400058: shredder_knife2.001|Shredder Gear MiddleAction.001
-    7400060: shredder_knife2.001|Shredder Gear MiddleAction.002
-    7400062: shredder_knife2.001|Shredder Gear MiddleAction.003
-    9500000: //RootNode
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: button
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: shreddder_knife1
+  - first:
+      1: 100006
+    second: shreddder_knife1.001
+  - first:
+      1: 100008
+    second: shredder_container
+  - first:
+      1: 100010
+    second: shredder_knife2
+  - first:
+      1: 100012
+    second: shredder_knife2.001
+  - first:
+      1: 100014
+    second: shredder_lid
+  - first:
+      4: 400000
+    second: button
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: shreddder_knife1
+  - first:
+      4: 400006
+    second: shreddder_knife1.001
+  - first:
+      4: 400008
+    second: shredder_container
+  - first:
+      4: 400010
+    second: shredder_knife2
+  - first:
+      4: 400012
+    second: shredder_knife2.001
+  - first:
+      4: 400014
+    second: shredder_lid
+  - first:
+      21: 2100000
+    second: Material.001
+  - first:
+      21: 2100002
+    second: Material.003
+  - first:
+      21: 2100004
+    second: No Name
+  - first:
+      23: 2300000
+    second: button
+  - first:
+      23: 2300002
+    second: shreddder_knife1
+  - first:
+      23: 2300004
+    second: shreddder_knife1.001
+  - first:
+      23: 2300006
+    second: shredder_container
+  - first:
+      23: 2300008
+    second: shredder_knife2
+  - first:
+      23: 2300010
+    second: shredder_knife2.001
+  - first:
+      23: 2300012
+    second: shredder_lid
+  - first:
+      33: 3300000
+    second: button
+  - first:
+      33: 3300002
+    second: shreddder_knife1
+  - first:
+      33: 3300004
+    second: shreddder_knife1.001
+  - first:
+      33: 3300006
+    second: shredder_container
+  - first:
+      33: 3300008
+    second: shredder_knife2
+  - first:
+      33: 3300010
+    second: shredder_knife2.001
+  - first:
+      33: 3300012
+    second: shredder_lid
+  - first:
+      43: 4300000
+    second: shredder_lid
+  - first:
+      43: 4300002
+    second: shreddder_knife1
+  - first:
+      43: 4300004
+    second: shredder_knife2
+  - first:
+      43: 4300006
+    second: button
+  - first:
+      43: 4300008
+    second: shreddder_knife1.001
+  - first:
+      43: 4300010
+    second: shredder_knife2.001
+  - first:
+      43: 4300012
+    second: shredder_container
+  - first:
+      74: 7400000
+    second: shreddder_knife1|Shredder Gear Back rearAction.000
+  - first:
+      74: 7400002
+    second: shreddder_knife1|Shredder Gear Back rearAction.001
+  - first:
+      74: 7400004
+    second: shreddder_knife1|Shredder Gear Front RearAction.001
+  - first:
+      74: 7400006
+    second: shreddder_knife1|Shredder Gear Front RearAction.002
+  - first:
+      74: 7400008
+    second: shreddder_knife1|Shredder Gear MiddleAction.000
+  - first:
+      74: 7400010
+    second: shreddder_knife1|Shredder Gear MiddleAction.001
+  - first:
+      74: 7400012
+    second: shreddder_knife1|Shredder Gear MiddleAction.002
+  - first:
+      74: 7400014
+    second: shreddder_knife1|Shredder Gear MiddleAction.003
+  - first:
+      74: 7400016
+    second: shredder_knife2|Shredder Gear Back rearAction.000
+  - first:
+      74: 7400018
+    second: shredder_knife2|Shredder Gear Back rearAction.001
+  - first:
+      74: 7400020
+    second: shredder_knife2|Shredder Gear Front RearAction.001
+  - first:
+      74: 7400022
+    second: shredder_knife2|Shredder Gear Front RearAction.002
+  - first:
+      74: 7400024
+    second: shredder_knife2|Shredder Gear MiddleAction.000
+  - first:
+      74: 7400026
+    second: shredder_knife2|Shredder Gear MiddleAction.001
+  - first:
+      74: 7400028
+    second: shredder_knife2|Shredder Gear MiddleAction.002
+  - first:
+      74: 7400030
+    second: shredder_knife2|Shredder Gear MiddleAction.003
+  - first:
+      74: 7400032
+    second: shreddder_knife1.001|Shredder Gear Back rearAction.000
+  - first:
+      74: 7400034
+    second: shreddder_knife1.001|Shredder Gear Back rearAction.001
+  - first:
+      74: 7400036
+    second: shreddder_knife1.001|Shredder Gear Front RearAction.001
+  - first:
+      74: 7400038
+    second: shreddder_knife1.001|Shredder Gear Front RearAction.002
+  - first:
+      74: 7400040
+    second: shreddder_knife1.001|Shredder Gear MiddleAction.000
+  - first:
+      74: 7400042
+    second: shreddder_knife1.001|Shredder Gear MiddleAction.001
+  - first:
+      74: 7400044
+    second: shreddder_knife1.001|Shredder Gear MiddleAction.002
+  - first:
+      74: 7400046
+    second: shreddder_knife1.001|Shredder Gear MiddleAction.003
+  - first:
+      74: 7400048
+    second: shredder_knife2.001|Shredder Gear Back rearAction.000
+  - first:
+      74: 7400050
+    second: shredder_knife2.001|Shredder Gear Back rearAction.001
+  - first:
+      74: 7400052
+    second: shredder_knife2.001|Shredder Gear Front RearAction.001
+  - first:
+      74: 7400054
+    second: shredder_knife2.001|Shredder Gear Front RearAction.002
+  - first:
+      74: 7400056
+    second: shredder_knife2.001|Shredder Gear MiddleAction.000
+  - first:
+      74: 7400058
+    second: shredder_knife2.001|Shredder Gear MiddleAction.001
+  - first:
+      74: 7400060
+    second: shredder_knife2.001|Shredder Gear MiddleAction.002
+  - first:
+      74: 7400062
+    second: shredder_knife2.001|Shredder Gear MiddleAction.003
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -107,29 +253,36 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -138,10 +291,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -151,13 +304,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
