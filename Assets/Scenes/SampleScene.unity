@@ -617,6 +617,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1821035293620043072, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 1821035293620043073, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
       propertyPath: m_Name
       value: MoneyModelType2 (4)
@@ -754,6 +758,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4987198755550057426, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 4987198755550057427, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_Name
       value: MoneyModelType3 (1)
@@ -937,6 +945,8 @@ MonoBehaviour:
   - {fileID: 1026594511}
   - {fileID: 291359324}
   - {fileID: 1333089699}
+  - {fileID: 979846209}
+  - {fileID: 2103913525}
   initializeOnAwake: 1
 --- !u!1 &569779914
 GameObject:
@@ -1218,6 +1228,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 708174603}
+  moneyText: {fileID: 0}
+  incomeController: {fileID: 0}
 --- !u!1001 &733828201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1269,6 +1281,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1821035293620043072, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 1821035293620043073, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
       propertyPath: m_Name
       value: MoneyModelType2 (1)
@@ -1342,7 +1358,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2010994312}
   m_Father: {fileID: 2118639275}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1364,6 +1381,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  moneyText: {fileID: 2010994313}
+  incomeController: {fileID: 2103913525}
 --- !u!1 &829080881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,6 +1552,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4509901540101979507, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
 --- !u!4 &916855943 stripped
@@ -1831,6 +1854,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyPools: {fileID: 1417650753}
+  activeLevel: {fileID: 0}
+  levelMoneyCount: 0
 --- !u!1001 &991055947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1906,6 +1931,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4987198755550057426, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 4987198755550057427, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_Name
       value: MoneyModelType3 (2)
@@ -2178,6 +2207,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5514111009054042927, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
 --- !u!4 &1179404461 stripped
@@ -2279,6 +2312,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4509901540101979507, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
 --- !u!4 &1217446817 stripped
@@ -2376,6 +2413,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5514111009054042927, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
 --- !u!4 &1332406263 stripped
@@ -2517,6 +2558,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5514111009054042927, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
 --- !u!4 &1372064188 stripped
@@ -2644,6 +2689,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1821035293620043072, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 1821035293620043073, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
       propertyPath: m_Name
       value: MoneyModelType2 (3)
@@ -3003,6 +3052,7 @@ Transform:
   - {fileID: 2042620550}
   - {fileID: 1333089698}
   - {fileID: 979846208}
+  - {fileID: 2103913524}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3056,6 +3106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  moneyText: {fileID: 0}
+  incomeController: {fileID: 0}
 --- !u!1001 &1620369034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3139,6 +3191,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4509901540101979507, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
 --- !u!4 &1620369035 stripped
@@ -3366,6 +3422,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4987198755550057426, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 4987198755550057427, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_Name
       value: MoneyModelType3 (5)
@@ -3471,6 +3531,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4509901540101979507, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
 --- !u!4 &1720521233 stripped
@@ -3564,6 +3628,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4987198755550057426, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 4987198755550057427, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_Name
       value: MoneyModelType3 (3)
@@ -3637,6 +3705,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1821035293620043072, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 1821035293620043073, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
       propertyPath: m_Name
       value: MoneyModelType2 (2)
@@ -3963,6 +4035,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4509901540101979507, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
 --- !u!4 &1843686790 stripped
@@ -4201,6 +4277,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5514111009054042927, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
 --- !u!4 &1975295000 stripped
@@ -4219,6 +4299,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57104e66c53144f4ab0ab9fb7a53b535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2010994311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2010994312}
+  - component: {fileID: 2010994314}
+  - component: {fileID: 2010994313}
+  m_Layer: 5
+  m_Name: MoneyText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2010994312
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010994311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 798393577}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 1.1093, y: -144.5742}
+  m_SizeDelta: {x: 530.5882, y: 289.1486}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2010994313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010994311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 11
+    m_MaxSize: 153
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0
+--- !u!222 &2010994314
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010994311}
+  m_CullTransparentMesh: 1
 --- !u!1 &2042620549
 GameObject:
   m_ObjectHideFlags: 0
@@ -4340,6 +4499,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4987198755550057426, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 4987198755550057427, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_Name
       value: MoneyModelType3 (4)
@@ -4445,6 +4608,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4509901540101979507, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
 --- !u!4 &2065924531 stripped
@@ -4542,6 +4709,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5514111009054042927, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
 --- !u!4 &2084160479 stripped
@@ -4560,6 +4731,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57104e66c53144f4ab0ab9fb7a53b535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2103913523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2103913524}
+  - component: {fileID: 2103913525}
+  m_Layer: 0
+  m_Name: IncomeController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2103913524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103913523}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1545942942}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2103913525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103913523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980fe5059882bc649893163e49a3a70f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelIncome: 0
+  gameScreen: {fileID: 798393579}
 --- !u!1 &2118639271
 GameObject:
   m_ObjectHideFlags: 0
@@ -4966,6 +5182,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1821035293620043072, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 1821035293620043073, guid: c3cf1bf2363132f49ac239b719082a6c, type: 3}
       propertyPath: m_Name
       value: MoneyModelType2
@@ -5144,6 +5364,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4509901540101979507, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0e3041b7fdcf144b774bf6fcd4b7e9, type: 3}
 --- !u!1001 &3156962903879202452
@@ -5200,102 +5424,6 @@ PrefabInstance:
     - target: {fileID: 3156962903576156519, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249777, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249777, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249777, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249779, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249779, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249779, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249781, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249781, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249781, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249783, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249783, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249783, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249785, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249785, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249785, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249787, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249787, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249787, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249789, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249789, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249789, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249791, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249791, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156962904236249791, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
@@ -5374,6 +5502,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4987198755550057426, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     - target: {fileID: 4987198755550057427, guid: e682e53f32fc96a458f370bfeca590d6, type: 3}
       propertyPath: m_Name
       value: MoneyModelType3
@@ -5459,5 +5591,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5514111009054042927, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}
+      propertyPath: incomeController
+      value: 
+      objectReference: {fileID: 2103913525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063a5e664e4e9f446a99895c4e0de112, type: 3}

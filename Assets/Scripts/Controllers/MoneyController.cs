@@ -6,25 +6,33 @@ using UnityEditor;
 public class MoneyController : ControllerModel
 {
     [SerializeField] MultiplePoolModel moneyPools;
+    [SerializeField] LevelModel activeLevel;
+    [SerializeField] int levelMoneyCount;
+    int index;
+
+    public override void Initialize()
+    {
+        base.Initialize();
+        activeLevel = LevelController.Controller.LoadedLevel;
+        levelMoneyCount = activeLevel.MoneyCount;
+        index = levelMoneyCount;
+    }
 
     public void SpawnMoney() 
     {
-        MoneyModel money = moneyPools.Pools[Random.Range(0,4)].GetDeactiveItem<MoneyModel>();
-        money.Spawn();
-    }
-}
-
-#if UNITY_EDITOR
-[CustomEditor(typeof(MoneyController))]
-public class MoneyControllerEditor : Editor
-{
-    public override void OnInspectorGUI()
-    {
-        MoneyController myTarget = (MoneyController)target;
-        if (GUILayout.Button("A"))
+        if (index <= levelMoneyCount)
         {
-            myTarget.SpawnMoney();
+            index--;
+            if (index <= 0)
+            {
+                GameStateController.Instance.ChangeState(GameStates.End);
+                ScreenController.Instance.ShowScreen(2);
+            }
+            else
+            {
+                MoneyModel money = moneyPools.Pools[Random.Range(0, 4)].GetDeactiveItem<MoneyModel>();
+                money.Spawn();
+            }
         }
     }
 }
-#endif

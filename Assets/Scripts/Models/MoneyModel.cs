@@ -10,11 +10,14 @@ public class MoneyModel : MoneyBaseModel
     [SerializeField] MoneyStackArea stackArea;
     [SerializeField] Vector3 shredAreaEnterPos;
     [SerializeField] Vector3 stackAreaPos;
+    [SerializeField] Vector3 shredAreaRot;
+    [SerializeField] Vector3 moneyStackAreaRot;
+    [SerializeField] IncomeController incomeController;
+    private bool isShredded;
+    private bool isStacked;
 
     public bool IsDoodled;
     public bool IsFake;
-    [SerializeField] Vector3 shredAreaRot;
-    [SerializeField] Vector3 moneyStackAreaRot;
 
     public override void Initialize()
     {
@@ -24,9 +27,7 @@ public class MoneyModel : MoneyBaseModel
     public void Spawn() 
     {
         SetActivate();
-        transform.position = InitialPos;
-        transform.rotation = Quaternion.identity;
-        animator.SetTrigger("Idle");
+        setDefault();
         transform.DOScale(new Vector3(1.2f, 1.2f, 1.2f), 0.25f).OnComplete(() => { transform.DOScale(Vector3.one, 0.25f); });
     }
 
@@ -52,10 +53,13 @@ public class MoneyModel : MoneyBaseModel
             {
                 onEnterShredArea();
                 shredArea.OnMoneyEnter();
+                isShredded = true;
             }
             if (stackArea = hit.transform.GetComponent<MoneyStackArea>())
             {
                 onEnterMoneyStackArea();
+                stackArea.OnEnterMoney();
+                isStacked = true;
             }
             if (stackArea == null && shredArea == null)
             {
@@ -66,6 +70,15 @@ public class MoneyModel : MoneyBaseModel
         }
     }
 
+    private void setDefault()
+    {
+        transform.position = InitialPos;
+        transform.rotation = Quaternion.identity;
+        animator.SetTrigger("Idle");
+        isShredded = false;
+        isStacked = false;
+    }
+
     private void onReturnOldPlace() 
     { 
         transform.DOMove(InitialPos, 0.5f);
@@ -73,15 +86,36 @@ public class MoneyModel : MoneyBaseModel
 
     private void onEnterShredArea() 
     {
-        transform.DOMove(shredAreaEnterPos, 0.05f);
-        transform.DORotate(shredAreaRot, 0.05f);
-        animator.SetTrigger("ShredMoney");
+        transform.DOMove(shredAreaEnterPos, 0.15f);
+        transform.DORotate(shredAreaRot, 0.15f).OnComplete(() => 
+        {
+            animator.SetTrigger("ShredMoney");
+        });
+        check();
     }
 
     private void onEnterMoneyStackArea() 
     {
-        transform.DOMove(stackAreaPos, 0.05f);
-        transform.DORotate(moneyStackAreaRot, 0.05f);
-        animator.SetTrigger("ShredMoney");
+        transform.DOMove(stackAreaPos, 0.15f);
+        transform.DORotate(moneyStackAreaRot, 0.15f).OnComplete(() => {
+            animator.SetTrigger("ShredMoney");
+        });
+        check();
+    }
+
+    private void check() 
+    {
+        if ((IsDoodled || IsFake) && isShredded)
+        {
+            incomeController.UpdateMoney(100);
+        }
+        else if ((!IsDoodled && !IsFake) && isStacked)
+        {
+            incomeController.UpdateMoney(100);
+        }
+        else
+        {
+            incomeController.UpdateMoney(100);
+        }
     }
 }

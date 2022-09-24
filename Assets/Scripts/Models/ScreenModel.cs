@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ScreenModel : ObjectModel
 {
     [SerializeField] Animator animator;
+    [SerializeField] Text moneyText;
+    [SerializeField] IncomeController incomeController;
 
     public void Show()
     {
@@ -22,9 +25,8 @@ public class ScreenModel : ObjectModel
         SceneManager.LoadScene(0);
     }
 
-    public void OnLevelStart() 
+    public void UpdateMoneyText() 
     {
-        GameStateController.Instance.ChangeState(GameStates.Game);
-        ScreenController.Instance.ShowScreen(1);
+        moneyText.text = incomeController.GetMoney().ToString();
     }
 }

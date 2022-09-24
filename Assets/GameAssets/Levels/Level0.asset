@@ -12,15 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad715acd897c351498da16ed3bff637b, type: 3}
   m_Name: Level0
   m_EditorClassIdentifier: 
-  ObstacleDatas:
-  - Id: 0
-    Position: {x: 0, y: 1, z: 25}
-  - Id: 1
-    Position: {x: 0, y: 1, z: 50}
-  - Id: 2
-    Position: {x: 0, y: 1, z: 75}
-  - Id: 3
-    Position: {x: 0, y: 1, z: 100}
-  FinishRoadData:
-    Id: 0
-    Position: {x: 0, y: 0, z: 120}
+  MoneyCount: 10

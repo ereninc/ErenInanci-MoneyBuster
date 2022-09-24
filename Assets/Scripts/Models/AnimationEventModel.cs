@@ -8,11 +8,9 @@ public class AnimationEventModel : MonoBehaviour
     [System.Serializable]
     public class TrigEvent : UnityEvent { }
     public TrigEvent OnTrig;
-    //[SerializeField] MoneyController moneyController;
 
     public void Trigger()
     {
         OnTrig.Invoke();
-        //moneyController.SpawnMoney();
     }
 }
