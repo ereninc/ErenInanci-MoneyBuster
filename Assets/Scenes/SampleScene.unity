@@ -2067,10 +2067,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f761dcb99671d9e47aaa273a057ebbb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  virtualCam: {fileID: 1026594510}
-  shakeTimer: 0.25
-  channel: {fileID: 0}
-  intensity: 0
 --- !u!1 &1092029626
 GameObject:
   m_ObjectHideFlags: 0
@@ -3628,6 +3624,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1794122365 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3156962902359807209, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+  m_PrefabInstance: {fileID: 3156962903879202452}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1820419942
 GameObject:
   m_ObjectHideFlags: 0
@@ -5128,6 +5129,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 34751269}
     m_Modifications:
+    - target: {fileID: 3156962903576156513, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
+      propertyPath: shredParticle
+      value: 
+      objectReference: {fileID: 1794122365}
     - target: {fileID: 3156962903576156518, guid: 2b87865bad476414f809bb5408e03ffb, type: 3}
       propertyPath: m_Name
       value: ShredArea
